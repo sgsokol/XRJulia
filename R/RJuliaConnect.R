@@ -289,7 +289,7 @@ juliaImport <- function(...,  evaluator = RJulia(.makeNew = FALSE)) {
 #' providing argument \code{.makeNew = TRUE} will force a new evaluator.  Otherwise, the current evaluator is
 #' returned.
 #'
-#' @param ... Arguments passed to \code{\link{getInterface}()} but none usually required.
+#' @param ... Arguments passed to \code{\link[XR]{getInterface}()} but none usually required.
 #' See \code{\link{JuliaInterface}} for details of the evaluator.
 RJulia <- function(...)
     XR::getInterface(.JuliaInterfaceClass, ...)
